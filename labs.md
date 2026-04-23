@@ -236,7 +236,7 @@ python vectors.py bert-base-cased 768
 
 <br><br>
 
-9. On the page for the model, click on the *Files and versions* tab. Then find the file *tokenizer.json* and click on it. The file will be too large to display, so click on the *check the raw version* link to see the actual content.
+9. On the page for the model, click on the *Files and versions* tab. Then find the file *tokenizer.json* and click on it. The file may be too large to display. If so, click on the *check the raw version* link to see the actual content.
 
 ![selecting tokenizer.json](./images/aia-1-20.png?raw=true "selecting tokenizer.json")
 ![opening file](./images/aia-1-21.png?raw=true "opening file")
