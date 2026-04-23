@@ -1,6 +1,12 @@
 from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
 import torch
 import sys
+import logging
+
+# Suppress the UNEXPECTED key warnings when loading base models
+# (these come from classification heads that aren't needed for embeddings)
+logging.getLogger("transformers").setLevel(logging.ERROR)
+
  
 # you can change these values 
 model_name = sys.argv[1]
