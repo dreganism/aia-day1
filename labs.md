@@ -1,7 +1,7 @@
 # Enterprise AI Accelerator
 ## Day 1 - Models and Retrieval Augmented Generation (RAG)
 ## Session labs 
-## Revision 1.7 - 03/29/26
+## Revision 1.9 - 04/23/26
 
 **Follow the startup instructions in the README.md file IF NOT ALREADY DONE!**
 
@@ -274,7 +274,7 @@ code translation.py
 
 <br><br>
 
-3. You can look around on the model card for more info about the model. Notice that it has links to an *OPUS readme* and also links to download its original weights, translation test sets, etc.
+3. You can look around on the model card for more info about the model. Notice that it has tags under the name that identify some of its characteristics, benchmark information further down, and information about using it on the right.
 
 <br><br>
 
