@@ -268,7 +268,7 @@ code translation.py
 ```
 <br><br>
 
-3. Take a look at the file contents.  Notice that we are pulling in a specific model ending with 'en-fr'. This is a clue that this model is trained for English to French translation. Let's find out more about it. In a browser, go to *https://huggingface.co/models* and search for the model name 'Helsinki-NLP/opus-mt-en-fr' (or you can just go to huggingface.co/Helsinki-NLP/opus-mt-en-fr).
+3. Take a look at the file contents.  Notice that we are pulling in a specific model ending with 'en-fr'. This is a clue that this model is trained for English to French translation. Let's find out more about it. In a browser, go to *https://huggingface.co/models* and search for the model name 'Helsinki-NLP/opus-mt-en-fr' (or you can just go to [huggingface.co/Helsinki-NLP/opus-mt-en-fr](https://huggingface.co/Helsinki-NLP/opus-mt-en-fr).
 
 ![model search](./images/aia-1-23.png?raw=true "model search")
 
@@ -297,7 +297,7 @@ code classification.py
 
 <br><br>
 
-6. Take a look at the model for this one *joeddav/xlm-roberta-large-xnli* on huggingface.co and read about it. When done, come back to the repo.
+6. Take a look at the model for this one [joeddav/xlm-roberta-large-xnli](https://huggingface.co/joeddav/xlm-roberta-large-xnli) on huggingface.co and read about it. When done, come back to the repo.
 
 <br><br>
 
@@ -319,7 +319,7 @@ code sentiment.py
 
 <br><br>
 
-9. Again, you can look at the model used by this one *distilbert-base-uncased-finetuned-sst-2-english* in Hugging Face.
+9. Again, you can look at the model used by this one [distilbert-base-uncased-finetuned-sst-2-english](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) in Hugging Face.
 
 <br><br>
 
