@@ -244,7 +244,7 @@ ANSWER:"""
             response = requests.post(
                 OLLAMA_API_URL,
                 json=payload,
-                timeout=90  # 90 second timeout (LLM generation can be slow)
+                timeout=120  # 120 second timeout (LLM generation can be slow)
             )
 
             # PROCESS RESPONSE: Extract the generated answer
