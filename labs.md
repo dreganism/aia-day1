@@ -1,7 +1,7 @@
 # Enterprise AI Accelerator
 ## Day 1 - Models and Retrieval Augmented Generation (RAG)
 ## Session labs 
-## Revision 1.10 - 04/23/26
+## Revision 1.11 - 04/26/26
 
 **Follow the startup instructions in the README.md file IF NOT ALREADY DONE!**
 
@@ -556,7 +556,7 @@ The system will connect to the vector database we created in Lab 6 and check if 
 
 <br><br>
 
-6. You should see knowledge base statistics showing how many chunks are indexed, and a check that Ollama is running with the llama3.2:1b model. If you see any errors about Ollama not running, check that with "ollama list".  If Ollama doesn't respond, try "ollama serve &".
+6. You should see knowledge base statistics showing how many chunks are indexed, and a check that Ollama is running with the llama3.2:1b model. (You may need to scroll back up in the terminal to see these details.) If you see any errors about Ollama not running, check that with "ollama list".  If Ollama doesn't respond, try "ollama serve &".
 
 ![Running](./images/aia-1-45.png?raw=true "Running")
 
