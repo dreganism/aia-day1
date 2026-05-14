@@ -9,7 +9,7 @@
         "context": ".."
     },
     "remoteEnv": {
-        "OLLAMA_MODEL": "llama3.2:3b"
+        "OLLAMA_MODEL": "llama3.2:1b"
     },
     "hostRequirements": {
         "cpus": 4,

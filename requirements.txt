@@ -4,11 +4,15 @@
 # Core Python packages
 requests>=2.28.0
 python-dotenv>=1.0.0
+aiohttp>=3.9.0
 
 # Vector Database & Embeddings
 chromadb>=0.4.0
 sentence-transformers>=2.2.0
 sentencepiece>=0.2.1
+
+# Transformers (used directly by llm/*.py and ft/reviews-ft.py)
+transformers>=4.40.0
 
 # Knowledge Graph
 networkx>=3.2
