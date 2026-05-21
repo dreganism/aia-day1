@@ -1,7 +1,15 @@
 {
-    "image": "ghcr.io/skillrepos/aia-day1-devcontainer:latest",
+    // Builds the dev container from .devcontainer/Dockerfile so this repo works
+    // as a standalone template (and in forks) without needing pull access to a
+    // private GHCR image. Configure Codespaces Prebuilds on your repo to make
+    // first-launch fast. If you publish your own pre-built image, you can swap
+    // this "build" block for: "image": "ghcr.io/<your-org>/<image>:latest".
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
     "remoteEnv": {
-        "OLLAMA_MODEL": "llama3.2:3b"
+        "OLLAMA_MODEL": "llama3.2:1b"
     },
     "hostRequirements": {
         "cpus": 4,

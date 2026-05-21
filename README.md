@@ -14,7 +14,7 @@ To do this, when logged in to GitHub, go to https://github.com/settings/codespac
 
 **2. Click on the button below to start a new codespace from this repository.**
 
-Click here ➡️  [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/skillrepos/aia-day1?quickstart=1)
+Click here ➡️  [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dreganism/aia-day1?quickstart=1)
 
 <br><br>
 

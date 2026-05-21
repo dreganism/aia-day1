@@ -30,6 +30,12 @@ RUN python3 -m venv /opt/py_env && \
 RUN /opt/py_env/bin/python -c \
     "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
 
+# Pre-download ChromaDB's default ONNX embedding model (a separate artifact
+# from the sentence-transformers cache above). Without this the first RAG
+# query stalls for ~30-60s downloading ONNX weights.
+RUN /opt/py_env/bin/python -c \
+    "import chromadb; c = chromadb.Client(); coll = c.get_or_create_collection('warmup'); coll.add(ids=['1'], documents=['warmup'])"
+
 # Pre-install Ollama (binary only — no model pull)
 # Remove CUDA/Vulkan GPU libraries (~4.6 GB) since Codespaces is CPU-only
 RUN curl -fsSL https://ollama.com/install.sh | sh && \

@@ -68,7 +68,7 @@ If this doesn't work, you can do the alternative steps below.
 <br>
 
 &emsp;&emsp;&emsp;&emsp;Click here ➡️ 
-<a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/skillrepos/aia-day1">
+<a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/dreganism/aia-day1">
   <img src="https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&style=for-the-badge"
        alt="Open in Dev Containers" height="48">    
 </a>     
